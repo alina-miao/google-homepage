@@ -1,0 +1,41 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+#navbar {
+    display: flex;
+    direction: row;
+
+}
+
+.search-bar {
+    background-color: #fff;
+    display: flex;
+    border-radius: 24px;
+    border: 1px solid;
+    margin: 0 auto;
+    width: 482px;
+}
+
+.search-bar-buttons {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    min-width: 54px;
+    height: 36px;
+    padding: 0 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search-bar-buttons {
+    box-shadow: 1px 1px;
+}
+
+footer {
+    background-color: 
+}
