@@ -6,21 +6,43 @@
 <main>
     <body>
         <nav id="navbar">
-            <div>About</div>
-            <div>Store</div>
-            <div>Gmail</div>
-            <div>Images</div>
-            <div>Sign In</div>
-        </nav>
-        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
-        <div id=search-bar>
-        </div>
-        <div class="search-bar-buttons">Google Search</div>
-        <div class="search-bar-buttons">I'm Feeling Good</div>
-        <footer class="footer">
             <div>
-                <img src="" alt="small leaf logo">
-                Carbon neutral since 2007
+                <a class="navbar-item" href="">About</a>
+                <a class="navbar-item" href="">Store</a>
+            </div>
+            <div>
+                <a class="navbar-item" href="">Gmail</a>
+                <a class="navbar-item" href="">Images</a>
+                <img class="navbar-item" id="waffle-icon" src="" alt="Google's waffle-icon">
+                <button id="sign-in-button" class="navbar-item">Sign In</button>
+            </div>
+        </nav>
+
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo">
+        
+        <form>
+            <input type="text" name="search" class="search-box">
+        </form>
+
+        <div class="search-buttons">
+            <button class="search-bar-button">Google Search</button>
+            <button class="search-bar-button">I'm Feeling Lucky</button>
+        
+        <footer class="footer">
+            <div id="footer-bar1">
+                <a href="">Carbon neutral since 2007</a>
+            </div>
+            <div id="footer-bar2">
+                <div>
+                    <a class="fbar2-links" href="">Advertising</a>
+                    <a class="fbar2-links" href="">Business</a>
+                    <a class="fbar2-links" href="">How Search works</a>
+                </div>
+                <div>
+                    <a class="fbar2-links" href="">Privacy</a>
+                    <a class="fbar2-links" href="">Terms</a>
+                    <a class="fbar2-links" href="">Settings</a>
+                </div>
             </div>
         </footer>
     </body>
