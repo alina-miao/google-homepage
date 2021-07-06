@@ -154,7 +154,7 @@ a:hover {
     text-align: center;
     cursor: pointer;
     user-select: none;
-    margin: 0 auto;
+    margin: 0 5px;
 }
 
 .search-bar-button:hover {
@@ -179,7 +179,7 @@ footer {
 }
 
 .fbar2-links {
-    margin: 0px 15px;
+    margin: 0 15px;
     text-align: center;
     line-height: 50px;
 }
